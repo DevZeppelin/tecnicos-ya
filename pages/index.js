@@ -6,7 +6,7 @@ import { IndexGridImageContent } from "../components/IndexGridImageContent";
 import { AiFillStar } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
 
-//Comilla invertida ````````````
+//Comilla invertida ````````
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="tecnicos ya, tecnicos, pc, soluciones, tecnologia, informatica, digital, servicios informaticos"
+          content="tecnicos ya, tecnicos, empresa, mendoza, pc, soluciones, tecnologia, informatica, digital, servicios informaticos"
         />
         <meta
           name="keywords"
