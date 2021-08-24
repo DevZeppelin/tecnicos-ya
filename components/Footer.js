@@ -97,11 +97,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="p-4 text-sm bg-darkBlue">
-        Make with &#128153; in Mendoza, Argentina, by{" "}
+        Make with &#128153; in Mendoza, Argentina<br/> by{" "}
         <a href="https://moonblog.ar" target="_blank" rel="noopener">
-          Gino Pietrobon
+          Dev Zeppelin (Gino Pietrobon)
         </a>
-        . All rights reserved. &copy; &nbsp; {new Date().getFullYear()}
+        <br/> All rights reserved. &copy; &nbsp; {new Date().getFullYear()}
       </div>
     </div>
   );

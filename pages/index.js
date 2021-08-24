@@ -152,13 +152,13 @@ export default function Home() {
               <h2 className="text-3xl font-prompt fadeIn">
                 No importa en que parte del país estés, nosotros llegamos
               </h2>
-              <p className="text-lg drop-shadow-2xl">
+              <p className="text-lg drop-shadow-2xl text-black ">
                 Técnicos Ya! se encuentra en todo el territorio nacional a
                 través de una estructura de “Partners”, que permite ofrecer
                 soluciones en todas las oficinas de sus clientes.
               </p>
-              <ul className="text-left px-10">
-                <li className="text-2xl font-prompt">PARTNERS</li>
+              <ul className="text-left px-10 text-black">
+                <li className="text-2xl font-prompt text-darkBlue">PARTNERS</li>
                 <li>Cisco Systems Inc. </li>
                 <li>HP Argentina</li>
                 <li>APC Energía ininterrumpida</li>
