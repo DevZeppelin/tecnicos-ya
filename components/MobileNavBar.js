@@ -15,16 +15,7 @@ const MobileNavBar = ({ open }) => {
         </Link>
         <Link href="/servicios">
           <a className="mr-2 mt-5 px-3 hover:border-darkBlue">Servicios 🛠</a>
-        </Link>
-
-        <a
-          className="mr-2 mt-5 px-3 hover:border-darkBlue"
-          href="https://www.youtube.com/cosntruccionesMED"
-          target="_blank"
-          rel="noopener"
-        >
-          Videos 📽
-        </a>
+        </Link>        
 
         <Link href="/contacto">
           <a className="mr-2 mt-5 px-3 hover:border-darkBlue">Contactanos 📞</a>

@@ -31,7 +31,7 @@ const SectionWelcome = () => {
   return (
     <section>
       <div>
-        <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-2 md:px-24 bg-green background-overlay">
+        <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-base md:text-lg xs:px-2 sm:px-6 md:px-24 bg-green background-overlay">
           <div className="first-block space-y-4 md:space-y-5 p-6 md:p-10 my-auto bg-white z-40 opacity-80 md:opacity-100 h-full">
             <h1 className="font-darkBlue text-darkBlue text-xl md:text-3xl font-prompt">
               Red de técnicos con disponiblilidad global
@@ -43,15 +43,15 @@ const SectionWelcome = () => {
               su ampla red de técnicos y conocimientos. Afianzados en un mercado
               en constante expansión.</p>
              
-              <p className="text-base">
+              <p>
                 ° Disponemos de una amplia cobertura en todos los puntos del
                 país.
               </p>
-              <p className="text-base">
+              <p>
                 ° Amplia red de técnicos disponible para brindar servicios de
                 excelencia.
               </p>
-              <p className="text-base">
+              <p>
                 <b>¡Conocimientos a su disposición! </b>
                 Ponemos a su alcance una amplio abanico de profesionales
                 dispuestos a buscar la mejor solución a sus necesidades

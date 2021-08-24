@@ -2,6 +2,8 @@ module.exports = {
     purge: false,
     theme: {
         screens: {
+            'xs' : '320px',
+            'sm' : '360px',
             'md': '850px',
         },
         extend: {

@@ -15,7 +15,7 @@ export default function Layout({ children, classHome, classQuienesSomos, classSe
   };
 
   return (
-    <div>
+    <div className="bg-background">
       <TopLeyend />
       <TopMainScreen />
       <NavBar toggleNav={toggleNav} classHome={classHome} classQuienesSomos={classQuienesSomos} classServicios={classServicios} classContacto={classContacto} />

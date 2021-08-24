@@ -152,7 +152,7 @@ export default function Home() {
               <h2 className="text-3xl font-prompt fadeIn">
                 No importa en que parte del país estés, nosotros llegamos
               </h2>
-              <p className="text-lg">
+              <p className="text-lg drop-shadow-2xl">
                 Técnicos Ya! se encuentra en todo el territorio nacional a
                 través de una estructura de “Partners”, que permite ofrecer
                 soluciones en todas las oficinas de sus clientes.
@@ -164,7 +164,7 @@ export default function Home() {
                 <li>APC Energía ininterrumpida</li>
               </ul>
               <Link href="/contacto">
-                <Fade right>
+                <Fade big>
                   <button className="btn uppercase">
                     Reservá una visita con nosotros
                   </button>
