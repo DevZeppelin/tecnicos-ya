@@ -1,6 +1,6 @@
 import { FiMail } from "react-icons/fi";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
-import { FiYoutube } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 const TopLeyend = () => {
   return (
@@ -11,32 +11,15 @@ const TopLeyend = () => {
         </p>
       </div>
       <div>
-        <div className="text-xl space-x-3 pr-6">
+        <div className="text-2xl space-x-3 pr-6">
+                            
           <a
-            href="https://www.facebook.com/Gini77o"
+            href="https://api.whatsapp.com/send?phone=5492616708100"
             target="_blank"
             rel="noopener"
           >
-            <button aria-label="go to my fabecook" alt="facebook-logo">
-              <FaFacebook className="hover:text-blue-600" />
-            </button>
-          </a>
-          <a
-            href="https://youtube.com/DevZeppelin"
-            target="_blank"
-            rel="noopener"
-          >
-            <button aria-label="go to my youtube channel" alt="youtube-logo">
-              <FiYoutube className="hover:text-green" />
-            </button>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gino-pietrobon"
-            target="_blank"
-            rel="noopener"
-          >
-            <button aria-label="go to my linked in" alt="linkedin-logo">
-              <FaLinkedinIn className="hover:text-yellow-400" />
+            <button aria-label="whatsapp" alt="whatsapp-logo">
+              <FaWhatsapp className="hover:text-green" />
             </button>
           </a>
           <a

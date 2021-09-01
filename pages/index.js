@@ -4,9 +4,11 @@ import Layout from "../components/Layout";
 import SectionWelcome from "../components/sections/SectionWelcome";
 import { IndexGridImageContent } from "../components/IndexGridImageContent";
 import { AiFillStar } from "react-icons/ai";
-import Fade from "react-reveal/Fade";
+import { AiTwotoneBuild } from "react-icons/ai";
+import { RiEmotionHappyLine } from "react-icons/ri";
+import { BsPeopleCircle } from "react-icons/bs";
 
-import { Help } from "./IT/help";
+import Fade from "react-reveal/Fade";
 
 //Comilla invertida ````````
 
@@ -193,8 +195,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 md:px-32 pb-16 ">
               <Fade bottom>
                 <div className="space-y-8 pb-6">
-                  <AiFillStar className="text-6xl text-green mx-auto" />
-
+                  <AiTwotoneBuild className="text-6xl text-green mx-auto" />
+                  <h2 className="service-h2">Brindamos soluciones</h2>
                   <p>
                     <strong>Técnicos Ya!</strong> es una empresa dedicada a
                     brindar soluciones de tecnología informática, con una amplia
@@ -205,8 +207,8 @@ export default function Home() {
               </Fade>
               <Fade bottom>
                 <div className="space-y-8 pb-6">
-                  <AiFillStar className="text-6xl text-green mx-auto" />
-
+                  <RiEmotionHappyLine className="text-6xl text-green mx-auto" />
+                  <h2 className="service-h2">Clientes felices</h2>
                   <p>
                     Para <strong>Técnicos Ya!</strong> los clientes son el
                     principal objetivo, y centra todos sus esfuerzos para lograr
@@ -217,8 +219,8 @@ export default function Home() {
               </Fade>
               <Fade bottom>
                 <div className="space-y-8 pb-6">
-                  <AiFillStar className="text-6xl text-green mx-auto" />
-
+                  <BsPeopleCircle className="text-6xl text-green mx-auto" />
+                  <h2 className="service-h2">Recursos Humanos</h2>
                   <p>
                     Nuestra empresa entiende, que el valor agregado que puede
                     aportar se haya en el profesionalismo e idoneidad de
@@ -230,6 +232,7 @@ export default function Home() {
               <Fade bottom>
                 <div className="space-y-8 pb-6">
                   <AiFillStar className="text-6xl text-green mx-auto" />
+                  <h2 className="service-h2">Eficiencia y calidad</h2>
 
                   <p>
                     Brindamos la eficiencia y calidad exigida por el cliente,
