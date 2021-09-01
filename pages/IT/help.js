@@ -31,13 +31,13 @@ const Help = () => {
             implantar un método basado en Help Desk como garantía de desarrollo.
           </p>
           <p>
-            POWERSIS ofrece un servicio de Help Desk, en concreto gestión remota
+            Técnicos Ya ofrece un servicio de Help Desk, en concreto gestión remota
             del puesto de trabajo, en el que ya han confiado centenares de
             empresas de diferentes ámbitos y localizaciones geográficas.
           </p>
           <h2 className="text-2xl text-darkBlue">SOPORTE</h2>
           <p>
-            En Powersis disponemos de un servicio de soporte – Help Desk de última
+            En Técnicos Ya disponemos de un servicio de soporte – Help Desk de última
             generación con asistencia a nuestros técnicos y usuarios, tanto de
             forma Onsite como remota. Proporcionamos a nuestros técnicos/clientes
             un apoyo inmediato de manera eficaz, sencilla y segura. Brindamos

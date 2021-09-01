@@ -30,7 +30,7 @@ const Gerenciamiento = () => {
           </p>
 
           <p>
-            En Powersis ofrecemos servicio de Project Management en todos los
+            En Técnicos Ya ofrecemos servicio de Project Management en todos los
             proyectos o servicios del campo IT de su empresa. Contamos con
             personal especializado que cuentan con más de una década de
             experiencia en metodologías ágiles para el correcto desenvolvimiento
@@ -70,7 +70,7 @@ const Gerenciamiento = () => {
 
           <p>
             Delegue la contratación del personal IT necesario, para crear una
-            estructura organizativa ideal en su empresa. En Powersis nos
+            estructura organizativa ideal en su empresa. En Técnicos Ya nos
             especializamos en encontrar el mejor profesional para cada compañía.
           </p>
 

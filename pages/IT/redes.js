@@ -28,7 +28,7 @@ const Redes = () => {
           </p>
 
           <p>
-            En Powersis realizamos instalación y mantenimiento de redes
+            En Técnicos Ya realizamos instalación y mantenimiento de redes
             informáticas de diversos tipos: LAN/WLAN/MAN/WAN. Realizamos visitas
             periódicas programadas a nuestros clientes para poder conocer en
             forma extensiva sus necesidades y su infraestructura tecnológica.

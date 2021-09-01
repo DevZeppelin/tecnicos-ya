@@ -24,7 +24,7 @@ const Microinfo = () => {
           </p>
 
           <p>
-            Powersis se encarga de la utilización y estudio de todos los equipos
+            Técnicos Ya se encarga de la utilización y estudio de todos los equipos
             informáticos de su empresa. De esta manera recomendar que
             aplicaciones se ajustan a esas especificaciones, como también
             recomendar mejoras de Software, Firmware y Hardware.
