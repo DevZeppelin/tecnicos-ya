@@ -9,7 +9,7 @@ const TopMainScreen = () => {
     <div className="flex px-2 md:px-24 text-darkBlue justify-center md:justify-between py-2">
       <Link href="/">
         <img
-          src="logo.png"
+          src="/logo.png"
           alt="tecnicos ya"
           height="200"
           width="200"

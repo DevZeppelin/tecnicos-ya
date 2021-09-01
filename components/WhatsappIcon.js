@@ -7,7 +7,7 @@ const WhatsappIcon = () => {
       rel="noopener"
     >
       <img
-        src="whatsapp.png"
+        src="/whatsapp.png"
         alt="building icon logo construcciones med"
         height="60"
         width="60"

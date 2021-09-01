@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/">
             <div className="block">
               <img
-                src="lightLogo.png"
+                src="/lightLogo.png"
                 alt="building icon logo construcciones med"
                 height="160"
                 width="280"

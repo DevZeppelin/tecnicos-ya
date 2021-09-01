@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/dist/client/link";
 import Layout from "../components/Layout";
 import { FaIndustry } from "react-icons/fa";
 import { AiOutlineBuild, AiOutlineStar } from "react-icons/ai";
@@ -8,7 +9,6 @@ import { GiMechanicalArm } from "react-icons/gi";
 import { FiCpu } from "react-icons/fi";
 
 import { ServiciosItem } from "../components/ServiciosItem";
-import Fade from "react-reveal/Fade";
 
 const Servicios = () => {
   return (
@@ -27,28 +27,38 @@ const Servicios = () => {
           <div>
             <section className="text-darkBlue-400 body-font">
               <div className="p-6 md:p-24 py-16 mx-auto">
-                <Fade big>
-                  <div className="flex flex-wrap -m-4">
-                    <ServiciosItem
-                      titulo={"Soporte General"}
-                      icono={
-                        <AiOutlineStar className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Outsourcing"}
-                      icono={
-                        <AiOutlineStar className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Recursos Humanos"}
-                      icono={
-                        <AiOutlineStar className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                  </div>
-                </Fade>
+                <div className="flex flex-wrap -m-4">
+                  <Link href="../servicios/soporte">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Soporte General"}
+                        icono={
+                          <AiOutlineStar className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                  <Link href="../servicios/outsourcing">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Outsourcing"}
+                        icono={
+                          <AiOutlineStar className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                  <Link href="../servicios/rrhh">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Recursos Humanos"}
+                        icono={
+                          <AiOutlineStar className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                </div>
 
                 <div className="flex flex-wrap w-full mb-12 flex-col items-center text-center">
                   <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 mt-20 text-darkBlue">
@@ -60,47 +70,69 @@ const Servicios = () => {
                     entregar soluciones reales y servicios de calidad.
                   </p>
                 </div>
-                <Fade big>
-                  <div className="flex flex-wrap -m-4">
-                    <ServiciosItem
-                      titulo={"Tecnologías IT"}
-                      icono={
-                        <FiCpu className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Capacitaciones"}
-                      icono={
-                        <AiOutlineBuild className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Electromecánica"}
-                      icono={
-                        <GiMechanicalArm className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Consultoría y Proyectos"}
-                      icono={
-                        <RiBuilding2Line className="mx-auto text-6xl text-green" />
-                      }
-                    />
 
-                    <ServiciosItem
-                      titulo={"Mantenimiento Industrial"}
-                      icono={
-                        <FaIndustry className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                    <ServiciosItem
-                      titulo={"Energías Alternativas"}
-                      icono={
-                        <WiSolarEclipse className="mx-auto text-6xl text-green" />
-                      }
-                    />
-                  </div>
-                </Fade>
+                <div className="flex flex-wrap -m-4">
+                  <Link href="../servicios/tecnologias">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Tecnologías IT"}
+                        icono={
+                          <FiCpu className="mx-auto text-6xl text-green" />
+                        }
+                      />
+                    </div>
+                  </Link>
+                  <Link href="../servicios/capacitaciones">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Capacitaciones"}
+                        icono={
+                          <AiOutlineBuild className="mx-auto text-6xl text-green" />
+                        }
+                      />
+                    </div>
+                  </Link>
+                  <Link href="../servicios/electromecanica">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Electromecánica"}
+                        icono={
+                          <GiMechanicalArm className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                  <Link href="../servicios/consultoria">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Consultoría y Proyectos"}
+                        icono={
+                          <RiBuilding2Line className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                  <Link href="../servicios/mantenimiento">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Mantenimiento Industrial"}
+                        icono={
+                          <FaIndustry className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                  <Link href="../servicios/energias">
+                    <div className="w-full md:w-1/3 p-4 cursor-pointer">
+                      <ServiciosItem
+                        titulo={"Energías Alternativas"}
+                        icono={
+                          <WiSolarEclipse className="mx-auto text-6xl text-green" />
+                        }
+                      />{" "}
+                    </div>
+                  </Link>
+                </div>
               </div>
             </section>
           </div>

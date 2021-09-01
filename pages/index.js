@@ -6,6 +6,8 @@ import { IndexGridImageContent } from "../components/IndexGridImageContent";
 import { AiFillStar } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
 
+import { Help } from "./IT/help";
+
 //Comilla invertida ````````
 
 export default function Home() {
@@ -52,21 +54,23 @@ export default function Home() {
               </div>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
-                <div className="indexGridContainer">
-                  <div className="indexGridImageText">
-                    Help Desk, Soporte y Mantenimiento
+              <Link href="../IT/help">
+                <div className="relative overflow-hidden cursor-pointer">
+                  <div className="indexGridContainer">
+                    <div className="indexGridImageText">
+                      Help Desk, Soporte y Mantenimiento
+                    </div>
+                    <IndexGridImageContent
+                      textDescription="Cuente con técnicos e ingenieros con más de 10 años de experiencia en implementación de las soluciones más complejas e innovadoras. Podemos garantizar la satisfacción de nuestros clientes para alcanzar las soluciones tecnológicas deseadas para su negocio."
+                      src="/ITImages/01-helpdesk.png"
+                      alt="lalala"
+                    />
                   </div>
-                  <IndexGridImageContent
-                    textDescription="Cuente con técnicos e ingenieros con más de 10 años de experiencia en implementación de las soluciones más complejas e innovadoras. Podemos garantizar la satisfacción de nuestros clientes para alcanzar las soluciones tecnológicas deseadas para su negocio."
-                    src="/ITImages/01-helpdesk.png"
-                    alt="lalala"
-                  />
                 </div>
-              </div>
+              </Link>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden cursor-pointer">
                 <div className="indexGridImageText">Electricidad</div>
                 <IndexGridImageContent
                   textDescription="UPS, Grupos electrógenos y electricidad en general. Contamos con recursos que nos permiten garantizar excelencia en servicios e instalaciones electricas"
@@ -76,17 +80,20 @@ export default function Home() {
               </div>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
-                <div className="indexGridImageText">Redes y CCTV</div>
-                <IndexGridImageContent
-                  textDescription="Cuente con una solución confiable en cableado estructurado de UTP y fibre óptica. Como también inalámbrica. Instalaciones de Rack de telecomunicaciones y sistemas de CCTV, control y mantenimiento."
-                  src="/ITImages/03-cctv.png"
-                  alt="lalala"
-                />
-              </div>
+              <Link href="../IT/redes">
+                <div className="relative overflow-hidden cursor-pointer">
+                  <div className="indexGridImageText">Redes y CCTV</div>
+                  <IndexGridImageContent
+                    textDescription="Cuente con una solución confiable en cableado estructurado de UTP y fibre óptica. Como también inalámbrica. Instalaciones de Rack de telecomunicaciones y sistemas de CCTV, control y mantenimiento."
+                    src="/ITImages/03-cctv.png"
+                    alt="lalala"
+                  />
+                </div>
+              </Link>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
+            <Link href="../IT/energia">
+              <div className="relative overflow-hidden cursor-pointer">
                 <div className="indexGridImageText">Soluciones de Energía</div>
                 <IndexGridImageContent
                   textDescription="Cuente con técnicos especializados y dedicados a brindar servicios de mantenimiento preventivo, correctivo en UPS y Generadores. Ofrecemos una solución alternativa en la implementación de la Energía Solar."
@@ -94,9 +101,11 @@ export default function Home() {
                   alt="lalala"
                 />
               </div>
+              </Link>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
+            <Link href="../IT/microinfo">
+              <div className="relative overflow-hidden cursor-pointer">
                 <div className="indexGridImageText">Microinformática</div>
                 <IndexGridImageContent
                   textDescription="Mejore  la productividad y eficiencia en su organización. Obtenga personal técnico especializado para Instalar, configurar y mantener servicios de su parque informático optimizando sus recursos."
@@ -104,9 +113,11 @@ export default function Home() {
                   alt="lalala"
                 />
               </div>
+              </Link>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
+            <Link href="../IT/gerenciamiento">
+              <div className="relative overflow-hidden cursor-pointer">
                 <div className="indexGridImageText">
                   Gerenciamiento de proyectos y RRHH
                 </div>
@@ -116,9 +127,10 @@ export default function Home() {
                   alt="lalala"
                 />
               </div>
+              </Link>
             </Fade>
             <Fade bottom>
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden cursor-pointer">
                 <div className="indexGridImageText">Básculas y Balanzas</div>
                 <IndexGridImageContent
                   textDescription="Obtenga un servicio de control y calidad en reparación, calibración, mantenimiento de básculas y balanzas. Contamos con especialistas y herramientas necesarias para brindar un servicio on-site en todo el país."
@@ -136,11 +148,11 @@ export default function Home() {
                   Déjanos tu nombre, teléfono o correo electrónico y nos
                   comunicaremos contigo a la brevedad
                 </p>
-                <Link href="/contacto">
-                  <Fade right>
+                <Fade big>
+                  <Link href="/contacto">
                     <button className="btn">Te Llamamos</button>
-                  </Fade>
-                </Link>
+                  </Link>
+                </Fade>
               </div>
             </Fade>
           </div>
@@ -163,13 +175,13 @@ export default function Home() {
                 <li>HP Argentina</li>
                 <li>APC Energía ininterrumpida</li>
               </ul>
-              <Link href="/contacto">
                 <Fade big>
+              <Link href="/contacto">
                   <button className="btn uppercase">
                     Reservá una visita con nosotros
                   </button>
-                </Fade>
               </Link>
+                </Fade>
             </div>
           </div>
         </section>
