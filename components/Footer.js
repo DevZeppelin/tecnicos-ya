@@ -1,5 +1,5 @@
 import MainBarButton from "./MainBarButton";
-import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 import Link from "next/dist/client/link";
@@ -16,6 +16,8 @@ const Footer = () => {
                 alt="building icon logo construcciones med"
                 height="160"
                 width="280"
+
+                className="cursor-pointer"
             
               />
             </div>
@@ -24,21 +26,7 @@ const Footer = () => {
         <div className="text-lg">
           <h2 className="font-extrabold">¡Contactanos hoy!</h2>
           <a
-            href="https://api.whatsapp.com/send?phone=5492616708100"
-            target="_blank"
-            rel="noopener"
-          >
-            <MainBarButton
-              logo={
-                <FaPhone className="text-green text-2xl flex my-auto m-2" />
-              }
-              text="Independencia 948 - Neuquén"
-              description2="011-22349038"
-              classType=""
-            />
-          </a>
-          <a
-            href="https://api.whatsapp.com/send?phone=5492616708100"
+            href="https://api.whatsapp.com/send?phone=5491161811533"
             target="_blank"
             rel="noopener"
           >
@@ -46,8 +34,22 @@ const Footer = () => {
               logo={
                 <FaWhatsapp className="text-green text-2xl flex my-auto m-2" />
               }
-              text="Mendoza 598 - Córdoba"
-              description2="0358-5086193"
+              text="Pueyrredón 758 - Mendoza"
+             
+              classType=""
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5491161811533"
+            target="_blank"
+            rel="noopener"
+          >
+            <MainBarButton
+              logo={
+                <FaWhatsapp className="text-green text-2xl flex my-auto m-2" />
+              }
+              text="Lavalle 579 - CABA"
+              
               classType=""
             />
           </a>
@@ -66,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="p-4 text-sm bg-darkBlue">
         Make with &#128153; in Mendoza, Argentina<br/> by{" "}
-        <a href="https://moonblog.ar" target="_blank" rel="noopener" className="font-extrabold text-lowContrast">
+        <a href="https://devzeppelin.ar" target="_blank" rel="noopener" className="font-extrabold text-lowContrast">
           Dev Zeppelin (Gino Pietrobon)
         </a>
         <br/> All rights reserved. &copy; &nbsp; {new Date().getFullYear()}

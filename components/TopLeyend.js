@@ -14,7 +14,7 @@ const TopLeyend = () => {
         <div className="text-2xl space-x-3 pr-6">
                             
           <a
-            href="https://api.whatsapp.com/send?phone=5492616708100"
+            href="https://api.whatsapp.com/send?phone=5491161811533"
             target="_blank"
             rel="noopener"
           >
@@ -23,7 +23,7 @@ const TopLeyend = () => {
             </button>
           </a>
           <a
-            href="mailto:gino.b.pietrobon@gmail.com"
+            href="mailto:tecnicosya2010@gmail.com"
             target="_blank"
             rel="noopener"
           >

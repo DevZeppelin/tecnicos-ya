@@ -58,7 +58,7 @@ const QuienesSomos = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-16 px-8 md:px-32 pb-16 text-center">
           <Fade bottom>
             <div className="space-y-4">
-              <BiCheckShield className="mx-auto text-4xl text-green" />
+              <FaEye className="mx-auto text-4xl text-green" />
               <h2 className="text-2xl text-darkBlue">Nuestra Visión</h2>
               <p>
               Acompañar a nuestros clientes en el proceso de gestión de la información, ofreciéndoles todos nuestros servicios.
@@ -68,7 +68,7 @@ const QuienesSomos = () => {
           </Fade>
           <Fade bottom>
             <div className="space-y-4">
-              <FaEye className="mx-auto text-4xl text-green " />
+              <BiCheckShield className="mx-auto text-4xl text-green " />
               <h2 className="text-2xl text-darkBlue">Nuestro Objetivo</h2>
               <p>
               Ser una empresa capaz de lograr con todos los clientes una relación “de confianza”. Conociendo en profundidad a cada uno de ellos, con el objetivo claro de brindar soluciones integrales a medida que perduren en el tiempo.
