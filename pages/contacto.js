@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import MainBarButton from "../components/MainBarButton";
-import { FaWhatsapp } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
 import Fade from "react-reveal/Fade";
 
@@ -36,7 +36,7 @@ const Contacto = () => {
                 >
                   <MainBarButton
                     logo={
-                      <FaWhatsapp className="text-green text-2xl md:text-6xl flex my-auto m-4" />
+                      <FiMapPin className="text-green text-2xl md:text-6xl flex my-auto m-4" />
                     }
                     text="CABA"
                     description1="Lavalle 579"
@@ -54,10 +54,11 @@ const Contacto = () => {
                 >
                   <MainBarButton
                     logo={
-                      <FaWhatsapp className="text-green text-2xl md:text-6xl flex my-auto m-4" />
+                      <FiMapPin className="text-green text-2xl md:text-6xl flex my-auto m-4" />
                     }
                     text="Mendoza"
                     description1="Pueyrredón 758"
+                    
                     classType="text-green text-2xl my-2"
                   />
                 </a>

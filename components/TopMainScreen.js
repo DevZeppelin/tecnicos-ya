@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 
 import MainBarButton from "./MainBarButton";
-import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
 
 const TopMainScreen = () => {
@@ -19,7 +19,7 @@ const TopMainScreen = () => {
         >
           <MainBarButton
             logo={
-              <FaWhatsapp className=" text-green text-4xl flex my-auto m-3" />
+              <FiMapPin className=" text-green text-4xl flex my-auto m-3" />
             }
             text="Mendoza"
             description1="Pueyrredón 758"
@@ -33,7 +33,7 @@ const TopMainScreen = () => {
         >
           <MainBarButton
             logo={
-              <FaWhatsapp className=" text-green text-4xl flex my-auto m-3" />
+              <FiMapPin className=" text-green text-4xl flex my-auto m-3" />
             }
             text="CABA"
             description1="Lavalle 579"

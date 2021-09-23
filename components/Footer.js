@@ -1,5 +1,5 @@
 import MainBarButton from "./MainBarButton";
-import { FaWhatsapp } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
 
 import Link from "next/dist/client/link";
@@ -32,7 +32,7 @@ const Footer = () => {
           >
             <MainBarButton
               logo={
-                <FaWhatsapp className="text-green text-2xl flex my-auto m-2" />
+                <FiMapPin className="text-green text-2xl flex my-auto m-2" />
               }
               text="Pueyrredón 758 - Mendoza"
              
@@ -46,7 +46,7 @@ const Footer = () => {
           >
             <MainBarButton
               logo={
-                <FaWhatsapp className="text-green text-2xl flex my-auto m-2" />
+                <FiMapPin className="text-green text-2xl flex my-auto m-2" />
               }
               text="Lavalle 579 - CABA"
               
@@ -59,8 +59,9 @@ const Footer = () => {
             rel="noopener"
           ><MainBarButton
             logo={<FiMail className="text-green text-2xl flex my-auto m-2" />}
-            text="Correo electrónico"
-            description2="tecnicosya2010@gmail.com"
+            text="Correo y teléfono"
+            description1="tecnicosya2010@gmail.com"
+            description2="11 6181-1533"
             classType=""
           /></a>
         </div>
